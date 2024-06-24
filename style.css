@@ -3,11 +3,11 @@
     padding: 0;
 }
 .slideshow-container{
-    width: 80%;
+    width: 90%;
     height: 300px;
     margin: 100px auto 20px auto;
     position: relative;
-    border: 2px solid black;
+    box-shadow: 2px 2px 2px black , -2px -2px 2px black;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -86,7 +86,7 @@
     to {opacity: 1}
   }
   .dotsBox{
-    width: 80%;
+    width: 90%;
     margin: auto auto;
     padding: 20px;
     display: flex;
